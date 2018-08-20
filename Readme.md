@@ -41,4 +41,7 @@ babel src/app.jsx --out-file=public/scripts/app.js --presets=env,react --watch
 ### To start lice-server 
 live-server public
 
-
+### Steps completed:
+* Setting up dev environment
+* Setting up local server
+* Setting up babel
