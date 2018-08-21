@@ -34,7 +34,7 @@
 
 - npm install -g babel-cli@6.24.1
 
-## Initiate Project
+#``# Initiate Project
 
 - yarn init
 - enter all default steps
@@ -52,3 +52,4 @@ live-server public --port=8082 [MoreInfo](http://tapiov.net/live-server/)
 - Setting up dev environment
 - Setting up local server
 - Setting up babel
+- Started with JSX logical operator & Ternary Operator and conditional operator
