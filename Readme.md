@@ -53,5 +53,5 @@ live-server public --port=8082 [MoreInfo](http://tapiov.net/live-server/)
 - Setting up local server
 - Setting up babel
 - Started with JSX logical operator & Ternary Operator and conditional operator
-- Arrowfunctions and map
+- Arrow functions and map
 - React rendering
