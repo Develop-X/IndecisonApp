@@ -6,6 +6,8 @@
 - install yarn [MoreInfo](https://yarnpkg.com/en/)
 - install vscode [MoreInfo](https://code.visualstudio.com/)
 
+## WebStorm [MoreInfo](https://www.jetbrains.com/webstorm/)
+
 ## Vscode Extentions
 
 - Simple react Snippets
@@ -13,7 +15,7 @@
 - Babel ES6/ES7
 - Beautify
 - Pettier
-- Path intelissence
+- Path intelligences
 - HTML snippets
 - HTML CSS support
 
@@ -55,3 +57,5 @@ live-server public --port=8082 [MoreInfo](http://tapiov.net/live-server/)
 - Started with JSX logical operator & Ternary Operator and conditional operator
 - Arrow functions and map
 - React rendering
+- React array jsx 
+- React map, Synthetic event, keys
