@@ -51,11 +51,11 @@ live-server public --port=8082 [MoreInfo](http://tapiov.net/live-server/)
 
 ### Steps completed:
 
-- Setting up dev environment
-- Setting up local server
-- Setting up babel
-- Started with JSX logical operator & Ternary Operator and conditional operator
-- Arrow functions and map
-- React rendering
-- React array jsx 
-- React map, Synthetic event, keys
+- [x] Setting up dev environment
+- [x] Setting up local server
+- [x] Setting up babel
+- [x] Started with JSX logical operator & Ternary Operator and conditional operator
+- [x] Arrow functions and map
+- [x] React rendering
+- [x] React array jsx 
+- [x] React map, Synthetic event, keys
