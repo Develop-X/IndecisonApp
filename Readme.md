@@ -47,7 +47,7 @@
 - yarn init
 - enter all default steps
 
-### Autowatch jsx to js using babel
+### Auto watch jsx to js using babel
 
 babel src/app.jsx --out-file=public/scripts/app.js --presets=env,react --watch [MoreInfo](https://babeljs.io/setup#installation)
 
@@ -65,3 +65,4 @@ live-server public --port=8082 [MoreInfo](http://tapiov.net/live-server/)
 - [x] React rendering
 - [x] React array jsx 
 - [x] React map, Synthetic event, keys
+- [x] React es6 classes
