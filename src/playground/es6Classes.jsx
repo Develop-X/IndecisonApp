@@ -14,19 +14,45 @@ class Person {
     }
 }
 
-class Student extends Person{
-    constructor(major='Computer Science'){
-        super();
+class Student extends Person {
+    constructor(name,age,major = 'Computer Science') {
+        super(name,age);
         this.major = major;
     }
 
-    hasMajor(){
+    hasMajor() {
         return !!this.major;
+    }
+
+    getDescription() {
+        let description = super.getDescription();
+        if (this.hasMajor()) {
+            description += `Their major is ${this.major}`
+        }
+        return description
     }
 }
 
-const me = new Student('Andrew',26,'Computer');
+class Traveler extends Person {
+    constructor(name,age,homeLocation = 'Perth') {
+        super(name,age);
+        this.homeLocation = homeLocation;
+    }
+
+    getGreetings() {
+        let greetings = super.getGreeting();
+        if (this.homeLocation) {
+            greetings = `I am visiting from ${this.homeLocation}`
+        }
+        return greetings;
+    }
+
+}
+
+const me = new Student('Andrew', 26, 'Computer');
 const other = new Student();
+const otherNew = new Traveler();
+
 
 console.log(me);
 console.log(me.getGreeting());
@@ -34,3 +60,4 @@ console.log(me.getDescription());
 console.log(other);
 console.log(me.hasMajor());
 console.log(other.hasMajor());
+console.log(otherNew.getGreetings());
