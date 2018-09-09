@@ -9,7 +9,7 @@ var app = {
 };
 
 const onFormSubmit = (e) => {
-    //To stop full page refresh
+    //To stop full page refresh and default form submission process
     e.preventDefault();
     const option = e.target.options.value;
     if (option) {
