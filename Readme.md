@@ -66,3 +66,7 @@ live-server public --port=8082 [MoreInfo](http://tapiov.net/live-server/)
 - [x] React array jsx 
 - [x] React map, Synthetic event, keys
 - [x] React es6 classes
+- [x] Component Porps
+- [X] Method Binding
+- [ ] Component State
+- [ ] Webpack 
